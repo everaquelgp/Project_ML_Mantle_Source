@@ -1,6 +1,9 @@
-data checked,treshoold,Number of features,Sr-Nd,Layers,input_size,learning rate,Epochs,train_acc last,val_acc last,test_acc
-Y,50,45,Y,4,44,0.001,100,0.8905,0.8687,0.883239171
-y,50,45,N,4,42,0.001,100,0.6997,0.6734,0.6892
-y,80,54,N,4,51,0.001,100,0.7133,0.6709,0.6848
-y,80,54,N,4,51,0.001,500,0.747,0.6771,0.691776522
-y,80,54,N,3,51,0.001,500,0.7394,0.6815,0.692404269
+Data,Model,,,,,,Results,,,,
+Threshold for features,Drop Sr-Nd,Input_size,Learning rate,Optimizer,Tolerance for early stopping,Regularization (weight_decay),train_acc,val_acc,Test_acc,Comment_recall&f1,
+20,FALSE,26,0.001,Adam,50,1.00E-05,0.8096,0.7798,0.80433213,,
+80,FALSE,55,0.001,Adam,50,1.00E-05,0.8094,0.7581,0.801444043,,
+50,FALSE,46,0.001,Adam,50,1.00E-05,0.806,0.7783,0.797833935,,
+50,FALSE,46,0.001,Adam,50,0,0.9451,0.9249,0.936462094,,
+50,TRUE,44,0.001,Adam,50,0,0.7508,0.644,0.641877256,,
+50,TRUE,44,0.001,Adam,50,1.00E-05,0.7195,0.626,0.615162455,,
+80,TRUE,53,0.001,Adam,50,0,0.756,0.631,0.623826715,,
