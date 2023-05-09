@@ -1,4 +1,4 @@
-This repository is the final project for the Machine Learning in Geosciences course at KAUST. The aim of the project is to classify rocks based on their mantle-source signature using only major and minor elemental composition; however, as per the current state of the project, the aim was not totally fullfilled. For future work the labeling of the input data needs to be improved, as well as the imbalace of the data per class. Project is under development 💜 all suggestions are more than welcome (by email or PR). 
+This repository is the final project for the Machine Learning in Geoscience course at KAUST. The aim of the project is to classify rocks based on their mantle-source signature using only major and minor elemental composition; however, as per the current state of the project, the aim was not totally fullfilled. For future work the labeling of the input data needs to be improved, as well as the imbalace of the data per class. Project is under development 💜 all suggestions are more than welcome (by email or PR). 
 
 
 *Software requirements*
